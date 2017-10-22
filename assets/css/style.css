@@ -1,6 +1,132 @@
 * {
-	font-family: arial;
-	font-size: 16px;
+}
+
+body {
+	background-image: url(../images/gray-slate-background.jpg);
+	background-repeat: no-repeat;
+	background-position:0 98px;
 
 }
 
+h1 {
+	font-size: 28px;
+	font-family: georgia;
+}
+
+
+
+#bio,
+.header-links {
+	font-family: arial;
+}
+
+
+header {
+	background-color: #4aaaa5;
+	height: 90px;
+	width: 250px;
+	color: white;
+	margin-top: 0px;
+	margin-left: 150px;
+	box-sizing: border-box;
+	padding: 13px 0 0 27px;
+	float: left;
+}
+
+.header-links {
+	background-color: white;
+	color: #A7A5A5;
+	margin-left: 870px;
+	width: 270px;
+	height: 90px;
+	box-sizing: border-box;
+
+
+}
+
+#about {
+	width: 33.333%;
+	float: left;
+	padding-top: 38px;
+}
+
+#contact{
+	width: 33.333%;
+	float: left;
+	padding-top: 38px;
+
+}
+
+#portfolio {
+	width: 33.333%;
+	float: left;
+	padding-top: 38px;
+}
+
+.about-box {
+	background-color: white;
+	height: 533px;
+	width: 650px;
+	float: left;
+	margin: 42px 42px 42px 150px;
+	border: 1px solid black;
+}
+
+
+#about-me {
+	color: #4aaaa5;
+	margin-left: 27px;
+	height: 77px;
+	width: 588px;
+	border-bottom: 4px solid #EBEBEB;
+	margin-bottom: 35px;
+	padding-top: 20px;
+
+}
+
+.blurb-photo {
+	float: left;
+	
+
+}
+
+#my-photo {
+	float: left;
+	margin: 0 25px 25px 27px;
+
+}
+
+#bio {
+	font-size: 18.5px;
+	color: #666666;
+	padding: 0 25px 25px 25px;
+	line-height: 200%;
+}
+
+.contact-links {
+	height: 200px;
+	width: 270px;
+	background-color: white;
+	float: left;
+	display: inline;
+	margin-top: 42px;
+	border: 1px solid black;
+	position: absolute;
+	color: #4aaaa5;
+	text-align: center;
+
+}
+
+.footer{
+	width: 1366px;
+	height: 110px;
+	background-color: #666666;
+	margin-left: -8px;
+	margin-top: 660px;
+	border-top: 10px solid #4aaaa5;
+	text-align: center;
+	color: white;
+	padding-top: 40px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
