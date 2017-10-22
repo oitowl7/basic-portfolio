@@ -117,6 +117,23 @@ header {
 
 }
 
+#connect {
+	border-bottom: 4px solid #ebebeb;
+	padding-top: 5px;
+}
+
+#linkedin,
+#github,
+#stack-overflow {
+	padding-top: 25px;
+}
+
+#github {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
 .footer{
 	width: 1366px;
 	height: 110px;
