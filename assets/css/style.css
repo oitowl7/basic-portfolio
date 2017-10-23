@@ -114,6 +114,7 @@ header {
 	position: absolute;
 	color: #4aaaa5;
 	text-align: center;
+	clear: right;
 
 }
 
@@ -139,11 +140,13 @@ header {
 	height: 110px;
 	background-color: #666666;
 	margin-left: -8px;
-	margin-top: 660px;
 	border-top: 10px solid #4aaaa5;
 	text-align: center;
 	color: white;
 	padding-top: 40px;
 	box-sizing: border-box;
 	font-size: 14px;
+	clear: left;
+	float: left;
+
 }
