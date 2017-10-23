@@ -1,11 +1,30 @@
 * {
 }
 
+html, body {
+	height: 100%;
+	
+}
+
 body {
 	background-image: url(../images/gray-slate-background.jpg);
 	background-repeat: no-repeat;
 	background-position:0 98px;
 
+}
+
+.content {
+	min-height: 100%;
+	margin-bottom: -110px;
+}
+
+.content:after {
+	content:"";
+	display: block;
+}
+
+.footer, .content:after {
+	height:110px;
 }
 
 h1 {
@@ -137,7 +156,6 @@ header {
 
 .footer{
 	width: 1366px;
-	height: 110px;
 	background-color: #666666;
 	margin-left: -8px;
 	border-top: 10px solid #4aaaa5;
