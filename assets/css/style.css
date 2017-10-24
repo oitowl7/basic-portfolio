@@ -35,7 +35,8 @@ h1 {
 
 
 #bio,
-.header-links {
+.header-links,
+#form {
 	font-family: arial;
 }
 
@@ -171,19 +172,62 @@ header {
 
 .contact-container {
 	background-color: white;
-	height: 533px;
+	height: 650px;
 	width: 650px;
 	float: left;
 	margin: 42px 42px 42px 150px;
 	border: 1px solid black;
 }
 
-#contact-text: {
+.contacting {
 	color: #4aaaa5;
 	margin-left: 27px;
-	height: 77px;
+	height: 77px
 	width: 588px;
-	border-bottom: 4px solid #EBEBEB;
-	margin-bottom: 35px;
+	border-bottom: 4px solid #ebebeb;
 	padding-top: 20px;
+
 }
+
+#form {
+	color: #666666;
+	padding-left: 27px;
+	padding-top: 25px;
+}
+
+#textarea {
+	width: 585px;
+	height: 200px;
+	margin-top: 3px;
+	padding-left: 3px;
+	max-height: 290px;
+	max-width: 585px;
+
+}
+
+#contact-submit {
+	background-color: #4aaaa5;
+	height: 40px;
+	width: 115px;
+	margin-left: 27px;
+	position: absolute;
+	bottom: 175px;
+	color: white;
+	border: 0px;
+	text-align: center;
+	
+
+
+
+}
+
+ 	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;

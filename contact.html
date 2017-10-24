@@ -32,9 +32,9 @@
 
 	<div class="contact-container">
 
-		<div id="contact-text">
+		<div class="contacting">
 
-			Contact
+			<h1>Contact</h1>
 
 		</div>
 
@@ -42,15 +42,19 @@
 			
 			Name
 			<br>
-			<input type="text" name="name">
+			<input type="text" name="name" placeholder="John Doe" style="width: 585px; height: 35px; margin-top: 3px; padding-left: 3px;"">
 			<br><br>
 			Email<br>
-			<input type="text" name="email">
+			<input type="text" name="email" placeholder="example@email.com" style="width: 585px; height: 35px; margin-top: 3px; padding-left: 3px;">
 			<br><br>
 			Message<br>
-			<textarea type="text" name="message"></textarea>
+			<textarea id="textarea" type="text" name="message"></textarea>
 
 		</form>
+
+		<div id=contact-submit>
+			<button type="button" onclick="alert('Thank you')" style="border: 0px; border-style: none; background-color: transparent; color: white; padding: 10px; font-family: arial; font-size: 18px;">Submit</button>
+		</div>
 
 	</div>
 
@@ -63,7 +67,7 @@
 
 			<a href="https://github.com/oitowl7" target="_blannk"><img id="github" src="assets/images/if_github_six_black_107112.png" alt="github" height="64" width="64"></a>
 
-			<a href="https://stackexchange.com/users/11897212/jordan" target="_blank"><img id="stack-overflow" src="assets/images/if_stack_overflow_1298710.png" alt="stack overflow" height="56" width="56"></a>
+			<a href="https://stackoverflow.com/users/8706242/jordan?tab=profile" target="_blank"><img id="stack-overflow" src="assets/images/if_stack_overflow_1298710.png" alt="stack overflow" height="56" width="56"></a>
 
 	
 	</div>
