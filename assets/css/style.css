@@ -3,7 +3,7 @@
 
 html, body {
 	height: 100%;
-	
+
 }
 
 body {
@@ -167,4 +167,23 @@ header {
 	clear: left;
 	float: left;
 
+}
+
+.contact-container {
+	background-color: white;
+	height: 533px;
+	width: 650px;
+	float: left;
+	margin: 42px 42px 42px 150px;
+	border: 1px solid black;
+}
+
+#contact-text: {
+	color: #4aaaa5;
+	margin-left: 27px;
+	height: 77px;
+	width: 588px;
+	border-bottom: 4px solid #EBEBEB;
+	margin-bottom: 35px;
+	padding-top: 20px;
 }
