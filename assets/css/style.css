@@ -7,9 +7,9 @@ html, body {
 }
 
 body {
-	background-image: url(../images/gray-slate-background.jpg);
-	background-repeat: no-repeat;
-	background-position:0 98px;
+	background-image: url(../images/greyscale-background.jpg);
+	background-position:left 50px;
+	background-repeat: round;
 
 }
 
@@ -46,11 +46,21 @@ header {
 	height: 90px;
 	width: 250px;
 	color: white;
-	margin-top: 0px;
+	margin-top: 13px;
 	margin-left: 150px;
 	box-sizing: border-box;
 	padding: 13px 0 0 27px;
 	float: left;
+}
+.header-container {
+	background-color: white;
+	z-index: 1;
+	height: 103px;
+	width: 100%;
+	padding: 0px;
+	margin-top: -10px;
+	margin-left: -10px;
+
 }
 
 .header-links {
@@ -60,6 +70,7 @@ header {
 	width: 270px;
 	height: 90px;
 	box-sizing: border-box;
+	padding-top: 13px;
 
 
 }
@@ -156,7 +167,7 @@ header {
 
 
 .footer{
-	width: 1366px;
+	width: 100%;
 	background-color: #666666;
 	margin-left: -8px;
 	border-top: 10px solid #4aaaa5;
@@ -211,12 +222,106 @@ header {
 	width: 115px;
 	margin-left: 27px;
 	position: absolute;
-	bottom: 175px;
+	top: 745px;
 	color: white;
 	border: 0px;
 	text-align: center;
 	
 
+}
+
+.port-container {
+	background-color: white;
+	height: 950px;
+	width: 650px;
+	float: left;
+	margin: 42px 42px 42px 150px;
+	border: 1px solid black;
+}
 
 
+#hangman-img,
+#rpg-img,
+#trivia-img,
+#rutgers-img,
+#rps-img {
+	position: absolute;
+	height: 200px;
+	width: 275px;
+	z-index: 3;
+
+}
+
+#hangman {
+	width: 275px;
+	height: 200px;
+	padding: 25px 0 0 27px;
+	float: left;
+	position: relative;
+	margin-right: 40px;
+
+}
+
+#hangman-text,
+#rpg-text,
+#trivia-text,
+#rutgers-text,
+#rps-text {
+	z-index: 4;
+	color: white;
+	background-color: #4aaaa5;
+	position: absolute;
+	bottom: 10px;
+	height: 60px;
+	width: 275px;
+	padding-top: 20px;
+	font-size: 27px;
+	text-align: center;
+}
+
+#rpg {
+	width: 275px;
+	height: 200px;
+	padding: 25px 0 0 27px;
+	position: relative;
+	margin-right: 40px;
+	clear: right;
+}
+
+#rpg-text {
+	margin-left: 315px;
+}
+
+#trivia {
+	width: 275px;
+	height: 200px;
+	padding: 25px 0 0 27px;
+	float: left;
+	position: relative;
+	margin-right: 40px;
+	margin-top: 40px;
+}
+
+#rutgers {
+	width: 275px;
+	height: 200px;
+	padding: 25px 0 0 27px;
+	position: relative;
+	margin-right: 40px;
+	clear: right;
+	margin-top: 40px;
+}
+
+#rutgers-text{
+	margin-left: 315px;
+}
+
+#rps {
+	width: 275px;
+	height: 200px;
+	padding: 25px 0 0 27px;
+	float: left;
+	position: relative;
+	margin-right: 40px;
+	margin-top: 40px;
 }
